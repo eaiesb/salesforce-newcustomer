@@ -29,7 +29,7 @@ stage('upload to atifactory') {
      def uploadSpec = """{
   "files": [
     {
-      "pattern": "**/*.jar",
+      "pattern": "**/*.zip",
       "target": "generic-local/mule4-demo-zips_$BUILD_NUMBER/salesforce-newcustomer.zip"
     }
  ]
