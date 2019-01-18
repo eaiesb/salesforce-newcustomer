@@ -42,8 +42,8 @@ stage('upload to atifactory') {
 }
    post {
       failure {
-            emailext attachLog: true, body: 'Deployment has failed', subject: 'salesforce-newcustomer Deployment Status', to: 'srikanth.bathini@eaiesb.com'
-           slackSend (color: "#FF0000",message: 'salesforce-newcustomer Deployment Failed')
+           emailext attachLog: true, body: 'Deployment has failed', subject: 'salesforce-newcustomer Deployment Status', to: 'srikanth.bathini@eaiesb.com'
+            slackSend (color: "#FF0000",message: 'salesforce-newcustomer Deployment Failed')
         }
       success {
           emailext attachLog: true, mimeType: 'text/html', body: '''The following build details are as follows:<br> <br>
