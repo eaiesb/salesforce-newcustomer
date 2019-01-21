@@ -27,8 +27,8 @@
 							          <configuration>
 							       	<deploymentType>cloudhub</deploymentType>
 								  	<muleVersion>3.9.1</muleVersion> 
-								  	<username>Kiran_padam123</username> 
-								  	<password>Eaiesb@123</password> 
+								  	<username>Sudheekar_DevOps</username> 
+								  	<password>Eaiesb152</password> 
 								  	<applicationName>newcustomer-munit-mule3</applicationName>
 								  	<environment>Sandbox</environment> 
 								  	<uri>https://anypoint.mulesoft.com</uri>
