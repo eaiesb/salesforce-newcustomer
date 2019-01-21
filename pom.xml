@@ -29,7 +29,7 @@
 								  	<muleVersion>3.9.1</muleVersion> 
 								  	<username>Sudheekar_DevOps</username> 
 								  	<password>Eaiesb152</password> 
-								  	<applicationName>newcustomer-munit-mule3</applicationName>
+								  	<applicationName>salesforce-newcustomer-munit-mule3</applicationName>
 								  	<environment>Sandbox</environment> 
 								  	<uri>https://anypoint.mulesoft.com</uri>
 							          	<workerType>Micro</workerType>
